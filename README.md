@@ -21,5 +21,7 @@ My own Description:
 3.We saved the private and the public key.(extension .pub for the public key)
 4.Import the Public key on the AWS Management Console --> so each one of us has the same ssh key to be connected with the servers
 5.Login with ~/.ssh/filename ubuntu@ipaddress
-6.created a bash script to automate the process
+6.created a bash script to automate the process named user-data.sh.tpl
+7.the value increment and the scp command send the file to the next server
+8.the file gets deleted after incrementing the value 
 
