@@ -12,3 +12,14 @@ Be creative in your delivery -- You can output the file containing the number to
 Automate all the things -- Use as much automation as you can, just to make it easy to deploy from scratch and avoid unnecessary manual steps.
 Team Power -- Work together, assign specific task to each other, make sure it's clear on who is working on what.
 Coordination is key -- Github is always a good place to save your code as a team, decide between yourselves who will own the team main repository and giving you access to create your own branch and submit pull requests.
+
+
+My own Description:
+
+1. Each one of us created an EC2 Instance with terraform 
+We generated a SSH Key with the following command : $ ssh-keygen -t rsa
+We saved the private and the public key.(extension .pub for the public key)
+Import the Public key on the AWS Management Console --> so each one of us has the same ssh key to be connected with the servers
+Login with ~/.ssh/filename ubuntu@ipaddress
+created a bash script to automate the process
+
