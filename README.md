@@ -17,9 +17,9 @@ Coordination is key -- Github is always a good place to save your code as a team
 My own Description:
 
 1. Each one of us created an EC2 Instance with terraform 
-We generated a SSH Key with the following command : $ ssh-keygen -t rsa
-We saved the private and the public key.(extension .pub for the public key)
-Import the Public key on the AWS Management Console --> so each one of us has the same ssh key to be connected with the servers
-Login with ~/.ssh/filename ubuntu@ipaddress
-created a bash script to automate the process
+2.We generated a SSH Key with the following command : $ ssh-keygen -t rsa
+3.We saved the private and the public key.(extension .pub for the public key)
+4.Import the Public key on the AWS Management Console --> so each one of us has the same ssh key to be connected with the servers
+5.Login with ~/.ssh/filename ubuntu@ipaddress
+6.created a bash script to automate the process
 
